@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import queryString from "query-string";
 import io from "socket.io-client";
 import "./Chat.css";
-import InfoBar from "../../components/Infobar/Infobar";
+import InfoBar from "../../components/InfoBar/InfoBar";
 import Input from "../../components/Input/Input";
 import Messages from "../../components/Messages/Messages";
 
